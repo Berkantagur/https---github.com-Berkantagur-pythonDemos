@@ -1,3 +1,4 @@
+# CALCULATOR
 
 operation = input("Please select the operation you want to perform (+ - / *): ")
 
