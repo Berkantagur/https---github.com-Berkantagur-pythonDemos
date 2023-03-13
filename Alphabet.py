@@ -1,3 +1,4 @@
+#Learning whether the letter entered by the user is vowel or silent
 
 vowel = ['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü']
 silent = ['b', 'c', 'ç', 'd', 'f', 'g', 'ğ', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'ş', 't', 'v', 'y', 'z']
@@ -9,3 +10,4 @@ if letter in vowel:
 
 else:
     print(letter, "is a silent letter.")
+
