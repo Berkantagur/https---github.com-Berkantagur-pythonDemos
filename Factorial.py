@@ -1,3 +1,4 @@
+#Getting the factorial of the number entered by the user
 
 factorial = input("Enter the number to be factorized: ")
 
