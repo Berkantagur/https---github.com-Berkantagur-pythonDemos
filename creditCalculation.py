@@ -1,15 +1,27 @@
-rate = 1.53
+creditRate = 1.53
 term = "24"
+money = 10000
 creditName = "Education Credit"
 
-print(type(rate))
+print(type(creditRate))
 print(type(term))
+print(type(money))
 print(type(creditName))
 
-print(int(term) + 12)
-#print(str(creditName))
-rate = str(rate)
-print(type(rate))
+rate = money * 0.10 * (int(term)/12)
+print(rate)
+
+totalPayment = rate + money
+print(totalPayment)
+
+
+
+
+
+
+
+
+
 
 term = input("Please enter the number of terms that you want: ")
 print(term)
@@ -28,4 +40,3 @@ print(text)
 #f-string
 text = f"Welcome {name}"
 print(text)
-
