@@ -19,3 +19,7 @@ print(int(term) + 12)
 #string interpolation
 print("The term that arises as a result of your choice: " + term)
 print("The term that arises as a result of your choice:  {newTerm}".format(newTerm = term))
+
+name = "Berkant"
+text = "Hello {names}".format(names = name)
+print(text)
