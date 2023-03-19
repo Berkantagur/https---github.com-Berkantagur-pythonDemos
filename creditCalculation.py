@@ -9,10 +9,10 @@ print(type(money))
 print(type(creditName))
 
 rate = money * 0.10 * (int(term)/12)
-print(rate)
+print("Rate:" + str(rate))
 
 totalPayment = rate + money
-print(totalPayment)
+print("Total Money:" + str(totalPayment))
 
 
 
