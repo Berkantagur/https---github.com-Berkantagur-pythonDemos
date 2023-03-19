@@ -7,5 +7,6 @@ print(type(term))
 print(type(creditName))
 
 print(int(term) + 12)
-print(str(creditName))
-
+#print(str(creditName))
+rate = str(rate)
+print(type(rate))
