@@ -1,6 +1,6 @@
 creditRate = 1.53
 term = "24"
-money = 10000
+money = 10120
 creditName = "Education Credit"
 
 print(type(creditRate))
