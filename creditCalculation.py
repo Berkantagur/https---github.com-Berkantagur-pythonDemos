@@ -23,3 +23,7 @@ print("The term that arises as a result of your choice:  {newTerm}".format(newTe
 name = "Berkant"
 text = "Hello {names}".format(names = name)
 print(text)
+
+#f-string
+text = f"Welcome {name}"
+print(text)
