@@ -14,3 +14,7 @@ print(type(rate))
 term = input("Please enter the number of terms that you want: ")
 print(term)
 print(type(rate))
+print(int(term) + 12)
+
+#string interpolation
+print("The term that arises as a result of your choice: " + term)
