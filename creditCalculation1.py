@@ -13,6 +13,7 @@ print("Rate:" + str(rate) + "TL")
 
 totalPayment = rate + money
 
+print("\n\t" + creditName)
 print("Total Money: {totalPayment} TL".format(totalPayment = totalPayment))
 print(f"Total Money: {totalPayment} TL")
 #string interpolation
