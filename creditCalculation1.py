@@ -2,6 +2,7 @@
 creditRate = input("Please enter the interest rate: ")
 term = input("Please enter the number of terms that you want: ")
 money = input("Please enter the principal amount: ")
+creditName = "Personal Credit"
 
 creditRate = float(creditRate)
 term = int(term)
