@@ -5,4 +5,5 @@ def cube(number):
 def main():
     num = int(input("Please enter a number: "))
     cube(num)
-    
+
+main()
