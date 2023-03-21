@@ -1,0 +1,1 @@
+vize = int(input("Please enter your vize mark score:"))
