@@ -6,7 +6,7 @@ average = vize * 0.40 + final  * 0.60
 print("Your mark average:", average)
 
 if average <= 30:
-    print("You are failed!")
+    print("You failed!")
 
 else:
     print("Congratulations, You've passed...")
