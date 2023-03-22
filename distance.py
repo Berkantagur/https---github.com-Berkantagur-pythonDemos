@@ -10,4 +10,4 @@ d1 = pow(x1-x2, 2)
 d2 = pow(y1-y2, 2)
 
 d = d1 +d2
-print(math.sqrt(d))
+print("Distance: ", math.sqrt(d))
