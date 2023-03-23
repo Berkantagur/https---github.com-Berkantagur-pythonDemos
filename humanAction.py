@@ -2,16 +2,17 @@
 class Human:
 
     #self => this
-    name = "Enes"
-    def greeting(self, sentence):
-        print(f"{self.name}: {sentence}")
+    sentence = "Hello"
+    def greeting(self):
+        print(f"{self.name}: {self.sentence}")
 
     def walk(self):
         print(f"{self.name} is walking.")
 
 #instance => örnek
 human1 = Human()
-human1.greeting("Hello", "Berkant")
+human1.name = "Berkanr"
+human1.greeting("Berkant")
 human1.walk()
 
 human2 = Human()
