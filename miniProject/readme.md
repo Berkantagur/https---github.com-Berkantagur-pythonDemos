@@ -9,6 +9,8 @@ Bu öğrenci kayıt sistemine;
 - Listeye birden fazla öğrenci eklemeyi mümkün kılan
 - Listedeki tüm öğrencileri tek tek ekrana yazdıran
 - Öğrencinin listedeki index numarası öğrenci numarası olarak kabul edildiğini düşünerek öğrencinin numarasını öğrenmeyi mümkün kılan
-- Listeden birden fazla öğrenci silmeyi mümkün kılan (döngü kullanınız) fonksiyonları geliştiriniz ve her bir fonksiyonu en az bir kere çağırarak konsolda test ediniz.
+- Listeden birden fazla öğrenci silmeyi mümkün kılan (döngü kullanınız)
+
+fonksiyonları geliştiriniz ve her bir fonksiyonu en az bir kere çağırarak konsolda test ediniz.
 
 *Ödevde kullanacağınız döngülerin bir tanesi for bir tanesi while döngüsü olması istenmektedir.*
