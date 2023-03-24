@@ -42,7 +42,9 @@ def addMultiStudent():
 
         students.append(stName + " " + stSurname)
         print(colored(f"{stName} {stSurname} has been added to the students list...", "light_green"))
-    
+
+        counter += 1
+
     print(students)
 
 addMultiStudent()
