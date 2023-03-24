@@ -37,11 +37,10 @@ def addMultiStudent():
 
     while counter<number:
 
-        stName = input("Please enter the name of the student to be added to the students list: ")
-        stSurname = input("Please enter the surname of the student to be added to the students list: ")
+        stFullName = input("Please enter the full name of the student to be added to the students list: ")
 
-        students.append(stName + " " + stSurname)
-        print(colored(f"{stName} {stSurname} has been added to the students list...", "light_green"))
+        students.append(stFullName)
+        print(colored(f"{stFullName} has been added to the students list...", "light_green"))
 
         counter += 1
 
@@ -98,4 +97,4 @@ def removeMultiStudent():
 
     print(students)
 
-removeMultiStudent()
+# removeMultiStudent()
