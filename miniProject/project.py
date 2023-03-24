@@ -62,7 +62,7 @@ def printStList():
 
 # printStList()
 
-def LearningStudentNo():
+def learningStudentNo():
 
     print(colored("\t~~~~~~LEARNING THE STUDENT'S NUMBER~~~~~~", "light_red"))
     
@@ -77,4 +77,5 @@ def LearningStudentNo():
         
         else:
             counter = counter + 1
-    LearningStudentNo()
+
+learningStudentNo()
