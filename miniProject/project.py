@@ -78,4 +78,24 @@ def learningStudentNo():
         else:
             counter = counter + 1
 
-learningStudentNo()
+# learningStudentNo()
+
+def removeMultiStudent():
+    
+    print(colored("\t~~~~~~REMOVING MORE THAN ONE STUDENT FROM THE STUDENT LIST~~~~~~", "light_red"))
+
+    number = int(input("Please enter the number of students that you want to be removed: "))
+    counter = 0
+
+    while counter<number:
+
+        stFullName = input("Please enter the full name of the student to be removed to the students list: ")
+
+        students.remove(stFullName)
+        print(colored(f"{stFullName} has been removed to the students list...", "light_green"))
+
+        counter += 1
+
+    print(students)
+
+removeMultiStudent()
