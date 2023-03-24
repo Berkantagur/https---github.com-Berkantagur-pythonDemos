@@ -59,4 +59,5 @@ def printStList():
         student += 1
 
     print(colored("All the students in the list were printed on the screen one by one...", "light_green"))
-    
+
+printStList()
