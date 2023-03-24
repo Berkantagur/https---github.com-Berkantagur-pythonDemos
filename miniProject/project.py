@@ -68,11 +68,11 @@ def learningStudentNo():
     
     stFullName = input("Please enter the fullname of the student whose number you want to know: ")
     counter = 0
-
+    
     while counter < len(students):
         
         if students[counter] == stFullName:
-            print("{stFullName}'s student number: {counter}".format(stFullName = stFullName))
+            print("{stFullName}'s student number: {counter}".format(stFullName = stFullName, counter = counter))
             break
         
         else:
