@@ -32,7 +32,7 @@ def addMultiStudent():
     
     print(colored("\t~~~~~~ADDING MORE THAN ONE STUDENT TO THE STUDENT LIST~~~~~~", "light_red"))
 
-    number = input("Please enter the number of students that you want to be added")
+    number = int(input("Please enter the number of students that you want to be added: "))
     counter = 0
 
     while counter<number:
