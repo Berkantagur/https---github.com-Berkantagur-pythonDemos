@@ -60,4 +60,21 @@ def printStList():
 
     print(colored("All the students in the list were printed on the screen one by one...", "light_green"))
 
-printStList()
+# printStList()
+
+def LearningStudentNo():
+
+    print(colored("\t~~~~~~LEARNING THE STUDENT'S NUMBER~~~~~~", "light_red"))
+    
+    stFullName = input("Please enter the fullname of the student whose number you want to know: ")
+    counter = 0
+
+    while counter < len(students):
+        
+        if students[counter] == stFullName:
+            print("{stFullName}'s student number: {counter}".format(stFullName = stFullName))
+            break
+        
+        else:
+            counter = counter + 1
+    LearningStudentNo()
