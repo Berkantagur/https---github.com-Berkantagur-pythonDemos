@@ -47,4 +47,16 @@ def addMultiStudent():
 
     print(students)
 
-addMultiStudent()
+# addMultiStudent()
+
+def printStList():
+
+    print(colored("\t~~~~~~PRINTING ALL THE STUDENTS IN THE LIST ONE BY ONE TO THE SCREEN~~~~~~", "light_red"))
+
+    for student in range(len(students)):
+    
+        print(students[student])
+        student += 1
+
+    print(colored("All the students in the list were printed on the screen one by one...", "light_green"))
+    
