@@ -98,3 +98,10 @@ def removeMultiStudent():
     print(students)
 
 # removeMultiStudent()
+
+def operations():
+
+    operation = open("functions.txt", "r")
+    print(operation.read())
+
+operations()
