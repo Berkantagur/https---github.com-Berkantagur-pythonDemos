@@ -124,4 +124,5 @@ def operations():
     elif choice == 6:
         removeMultiStudent()
 
-        
+    else:
+        print("Invalid operation! Please enter a number between 1-6...")
