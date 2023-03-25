@@ -126,3 +126,5 @@ def operations():
 
     else:
         print("Invalid operation! Please enter a number between 1-6...")
+
+operations()
