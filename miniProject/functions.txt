@@ -1,0 +1,7 @@
+        ~~~~WELCOME~~~~
+Adding student to the student list
+Removing student from the student list
+Adding more than one student to the student list
+Printing all the student in the list one by one to the screen
+Learning the student's number 
+Removing more than one student from the student list 

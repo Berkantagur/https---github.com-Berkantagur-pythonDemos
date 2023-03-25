@@ -18,7 +18,7 @@ def addStudent():
 
 def removeStudent():
 
-    print(colored("\t\t\t~~~~~~REMOVING STUDENT TO THE STUDENT LIST~~~~~~", "light_red"))
+    print(colored("\t\t\t~~~~~~REMOVING STUDENT FROM THE STUDENT LIST~~~~~~", "light_red"))
     print(students)
     stFullName = input("Please enter the full name of the student to be removed to the students list: ")
 
