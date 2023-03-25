@@ -120,3 +120,8 @@ def operations():
 
     elif choice == 5:
         learningStudentNo()
+
+    elif choice == 6:
+        removeMultiStudent()
+
+        
