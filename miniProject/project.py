@@ -105,3 +105,18 @@ def operations():
     print(operation.read())
 
     choice = int(input("Please choice an operator that you want: "))
+
+    if choice == 1:
+        addStudent()
+
+    elif choice == 2:
+        removeStudent()
+
+    elif choice == 3:
+        addMultiStudent()
+
+    elif choice == 4:
+        printStList()
+
+    elif choice == 5:
+        learningStudentNo()
