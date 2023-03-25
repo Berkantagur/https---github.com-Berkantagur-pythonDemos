@@ -4,4 +4,4 @@
 3--> Adding more than one student to the student list
 4--> Printing all the student in the list one by one to the screen
 5--> Learning the student's number 
-6.Removing more than one student from the student list 
+6--> Removing more than one student from the student list 
