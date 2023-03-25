@@ -104,4 +104,4 @@ def operations():
     operation = open("functions.txt", "r")
     print(operation.read())
 
-operations()
+    choice = int(input("Please choice an operator that you want: "))
