@@ -5,7 +5,7 @@ from time import sleep
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.maximize_window()
 driver.get("https://www.google.com/")
-# sleep(20)
+# sleep(10)
 while True:
     continue
 
