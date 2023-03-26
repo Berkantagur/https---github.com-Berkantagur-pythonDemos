@@ -1,3 +1,6 @@
+# Selenium is an open source automation testing tool that supports a number of scripting languages
+# like Python, C#, Java, Perl, Ruby, JavaScript, etc. depending on the application to be tested. 
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
