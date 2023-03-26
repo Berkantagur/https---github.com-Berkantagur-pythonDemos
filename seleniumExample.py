@@ -5,5 +5,8 @@ from time import sleep
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.maximize_window()
 driver.get("https://www.google.com/")
+# sleep(20)
+while True:
+    continue
 
-sleep(20)
+# HTML LOCATORS
