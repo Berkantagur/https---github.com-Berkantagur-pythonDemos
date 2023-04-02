@@ -101,10 +101,10 @@ def removeMultiStudent():
 
 def operations():
 
-    operation = open("functions.txt", "r")
+    operation = open("functions.txt", "r", encoding='utf-8', errors='ignore')
     print(operation.read())
 
-    choice = int(input("Please choice an operator that you want: "))
+    choice = int(input("\nPlease choice an operator that you want: "))
 
     if choice == 1:
         addStudent()

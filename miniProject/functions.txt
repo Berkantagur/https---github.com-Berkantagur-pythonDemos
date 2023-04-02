@@ -1,4 +1,4 @@
-        ~~~~WELCOME~~~~
+                ~~~~WELCOME~~~~
 1--> Adding student to the student list
 2--> Removing student from the student list
 3--> Adding more than one student to the student list
@@ -6,5 +6,4 @@
 5--> Learning the student's number 
 6--> Removing more than one student from the student list 
 
-students = ["Ahmet Furkan ÇAYIRTEPE", "Ayşenur EKİZ", "Berkant AĞUR", "Beyza BİRYOL",
-            "Beyza ERDEMİR", "Kaan PULAT", "Petek İŞ"]
+Students List = ["Ahmet Furkan ÇAYIRTEPE", "Ayşenur EKİZ", "Berkant AĞUR", "Beyza BİRYOL", "Beyza ERDEMİR", "Kaan PULAT", "Petek İŞ"]
