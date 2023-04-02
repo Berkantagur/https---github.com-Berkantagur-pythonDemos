@@ -5,3 +5,6 @@
 4--> Printing all the student in the list one by one to the screen
 5--> Learning the student's number 
 6--> Removing more than one student from the student list 
+
+students = ["Ahmet Furkan ÇAYIRTEPE", "Ayşenur EKİZ", "Berkant AĞUR", "Beyza BİRYOL",
+            "Beyza ERDEMİR", "Kaan PULAT", "Petek İŞ"]

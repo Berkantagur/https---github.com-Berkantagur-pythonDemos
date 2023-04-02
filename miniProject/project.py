@@ -85,17 +85,17 @@ def removeMultiStudent():
 
     number = int(input("Please enter the number of students that you want to be removed: "))
     counter = 0
-
+    
     while counter<number:
 
         stFullName = input("Please enter the full name of the student to be removed to the students list: ")
-
+        
         students.remove(stFullName)
         print(colored(f"{stFullName} has been removed to the students list...", "light_green"))
 
         counter += 1
 
-    print(students)
+    print("New List: ", students)
 
 # removeMultiStudent()
 
